@@ -1,0 +1,15 @@
+h1{
+    color: green;
+}
+
+#boldBlue{
+    color:blue;
+}
+#boldBlue:hover{
+    color:blue;
+    font-weight:bold;
+}
+
+.blueText{
+    color:blue;
+}

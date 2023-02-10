@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="logic.js"></script>
+    </head>
+    <body>
+        <h1>Headline</h1>
+        <p>This is an example website for Freddy's Full Stack development lectures.</p>
+        <ul>
+            <li class="blueText">This text is blue.</li>
+            <li id="boldBlue">This will become bold when you hover.</li>
+        </ul>
+        <p id="hiddenText" style="display: none"></p>
+        <button onClick="showText()">The hidden knowledge...</button>
+
+        <input id="nameInput" type="text"/>
+        <button onClick="sayHello()">Click me!</button>
+
+        <script>
+            function showText(){
+            document.getElementById("hiddenText").style.display = "block"
+        }
+        </script>
+    </body>
+</html>
